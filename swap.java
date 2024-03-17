@@ -5,7 +5,7 @@ class swap{                                     //You define a class named swap.
         int x, y, temp;                               //This line declares three integer variables: x, y, and temp. These variables will be used to store the values of the two numbers to swap (x and y), as well as for temporary storage during the swapping process.
         
         System.out.println("Enter x and y ");           //This line prints a message to the console, asking the user to enter the values of x and y.
-        Scanner sc = new Scanner(System.in);            // Here, you create a Scanner object named sc to read input from the console (System.in). Then, you use the nextInt() method of the Scanner class to read integer inputs provided by the user and store them in the x and y variables.
+        Scanner sc = new Scanner(System.in);            // Here,  you create a Scanner object named sc to read input from the console (System.in). Then, you use the nextInt() method of the Scanner class to read integer inputs provided by the user and store them in the x and y variables.
         
         x = sc.nextInt();
         y = sc.nextInt();
